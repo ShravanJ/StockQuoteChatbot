@@ -8,7 +8,7 @@ A basic demonstration of using Semantic Kernel and a local LLM for retrieving st
 Before you can build and run the project, you will need the following:
 * An API key for Twelve Data: https://twelvedata.com/
 * LM Studio, so you can easily access a local LLM via the OpenAI API interface: https://lmstudio.ai/
-* A local LLM, such as Phi3-mini: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct (you can download this directly through LM Studio)
+* A local model, such as Phi3-mini: https://huggingface.co/microsoft/Phi-3-mini-128k-instruct (you can download this directly through LM Studio)
 
 After installing LM Studio and downloading a model, go to the Developer tab to start up a Web Server. We will use the endpoint that it creates to communicate with the model for chat completion:
 
